@@ -1,0 +1,15 @@
+keycloak:
+  resource: my-api
+  use-resource-role-mappings: true
+  confidential-port: 0
+  credentials:
+    secret: asdgaçskbd-asçjdbasjkdba-aljdlasçjkd-0çaksjdasd987asd
+my-api:
+  rest-ad-root-url: 'https://ad.yourdomain.com:8443/'
+  rest-ad-username: 'askdgasçidgsadjasd'
+  rest-ad-password: 'aosugdasihgdasoudh'
+  rest-ad-domain-name: 'yourdomain.com.br'
+  ldap-url: 'ldap://yourdomain.com.br:389'
+  ldap-username: 'CN=S_DesabilitaConta,OU=Sede,DC=yourdomain,DC=com,DC=br'
+  ldap-password: 'asoudgçhksqe2113123hj'
+  ldap-base: 'DC=yourdomain,DC=com,DC=br'
